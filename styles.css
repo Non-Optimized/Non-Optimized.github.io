@@ -71,3 +71,42 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Styling for the image links */
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.game-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.game-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.game-item img:hover {
+    transform: scale(1.1);
+}
+
+.game-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.game-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.game-item a:hover p {
+    text-decoration: underline;
+}
